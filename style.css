@@ -6,19 +6,27 @@
 }
 
 body {
-    /* height: 300px;
-    width: 300px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+}
+
+.container-game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid black;
 }
 
 .gameboard {
-    height: 75vh;
-    width: 75vw;
-    gap: 5px;
+    height: 100vh;
+    width: 100vw;
+    /* gap: 5px; */
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 }
